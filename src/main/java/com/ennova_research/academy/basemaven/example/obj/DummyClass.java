@@ -20,8 +20,9 @@ public class DummyClass {
 		this.pippo = pippo;
 	}
 
+	//@Deprecated
 	public Integer getPluto() {
-		return pluto;
+		return 1;
 	}
 
 	public void setPluto(Integer pluto) {

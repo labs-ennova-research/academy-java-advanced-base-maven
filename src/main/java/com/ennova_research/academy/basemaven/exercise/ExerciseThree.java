@@ -23,7 +23,7 @@ public class ExerciseThree {
 		    } else {
 		    	String[] dm = dayMonth.split(",");
 		    	var localDate  = LocalDate.of(2021, Integer.valueOf(dm[1]), Integer.valueOf(dm[0]));
-		    	System.out.println(localDate.getDayOfYear());
+		    	System.out.println(String.format("È il giorno %s dell'anno", localDate.getDayOfYear()));
 		    }
 	    } catch (Exception e) {
 	    	System.out.println("Something goes wrong...");
